@@ -1,4 +1,4 @@
-package be.jornedesmedt.kittylauncher
+package be.jornedesmedt.kittylauncher.ui
 
 import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.fillMaxSize
@@ -10,8 +10,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.constraintlayout.compose.ConstraintLayout
 import androidx.constraintlayout.compose.ConstraintSet
 import androidx.constraintlayout.compose.Dimension
+import be.jornedesmedt.kittylauncher.R
 import be.jornedesmedt.kittylauncher.model.AppInfo
-import be.jornedesmedt.kittylauncher.ui.AppLaunchIcon
 
 @Composable
 fun AppGrid(
